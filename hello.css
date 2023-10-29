@@ -39,17 +39,27 @@ a:hover{
     background-color:darkgray;
     border-radius: 50px;
 }
-div{
+.div1{
     padding: 30px;
     align-items: center;
     margin-top: 50px;
-    margin: 40px;
+    margin: 35px;
     box-shadow: rgb(7, 92, 13) 0px 20px 30px -10px;
 }
+
 h2{
     color: #66FF00;
     text-align: center;
 }
+img{
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    opacity: 0.4;
+    float: right;
+}
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
 label{
     color: whitesmoke;
     font-family: 'Sometype Mono', monospace;
@@ -59,9 +69,10 @@ label{
 }
 input{
     background-color: azure;
-    height: 30px;
-    font-size: medium;
+    height: 15px;
+    font-size: small;
     font-family: 'Courier New', Courier, monospace;
+    border-radius: 12PX;
 }
 .button-86 {
   all: unset;
@@ -131,4 +142,14 @@ input{
 }
 form{
     padding: 10px;
+}
+.btn{
+    right: 0;
+    color: azure;
+    padding: 20px;
+    margin: 40px;
+    box-shadow: rgba(14, 14, 111, 0.25) 0px 30px 60px -12px inset, rgba(60, 36, 36, 0.3) 0px 18px 36px -18px inset;
+}
+p{
+    color: white;
 }
