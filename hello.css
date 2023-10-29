@@ -39,13 +39,29 @@ a:hover{
     background-color:darkgray;
     border-radius: 50px;
 }
+div{
+    padding: 30px;
+    align-items: center;
+    margin-top: 50px;
+    margin: 40px;
+    box-shadow: rgb(7, 92, 13) 0px 20px 30px -10px;
+}
 h2{
-    color: whitesmoke;
+    color: #66FF00;
     text-align: center;
 }
 label{
     color: whitesmoke;
     font-family: 'Sometype Mono', monospace;
+    display: flexbox;
+    justify-content: center;
+    justify-content:end;
+}
+input{
+    background-color: azure;
+    height: 30px;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
 }
 .button-86 {
   all: unset;
